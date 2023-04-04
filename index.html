@@ -291,22 +291,17 @@
                 </ul>    
             </div>
             <div class="footer-subscribe">
+                <p class="footer-subscribe-email">Subscribe</p>
                 <form class="footer-subscribe-form">
-                
-                    <span class="footer-subscribe-email">Subscribe</span>
-                        <div class="footer-subscribe-wrap">
-                            <input class="footer-input" id="user-email" name="user-email" type="email" placeholder="E-mail"/>
-                        </div> 
-               
-                </form>
-                <div class="footer-subscribe-icon">
-                    <span class="footer-subscribe-email-icon">Subscribe</span>
+                    <div class="subscribe-container">
+                    <input class="footer-input" id="user-email" name="user-email" type="email" placeholder="E-mail"/>
                     <button class="footer-subscribe-btn" type="submit">Subscribe
                     <svg  class="footer-subscribe-click" width="24" height="24">
                     <use href="./images/icons.svg#icon-subscribe"></use>
                     </svg></button>
-                </div>
-            </div>
+                    </div>
+                </form>  
+            </div> 
         </div>
     </footer>
 
@@ -320,7 +315,7 @@
 
             <p class="modal-title" title="modal-title"> Leave your contacts and we will call you back</p>
             <form class="modal-form"> 
-                <label>
+                <label class="modal-label">
                     <span class="modal-label-text">Name</span>
                         <div class="input-wrap">
                             <input  class="modal-input" id="user-name" name="user-name" type="text" required autofocus />
@@ -328,7 +323,7 @@
                         </div>
                 </label>
 
-                <label>
+                <label class="modal-label">
                     <span class="modal-label-text">Phone</span>
                         <div class="input-wrap">
                             <input class="modal-input" id="user-phone" name="user-phone" type="tel" required />
@@ -336,7 +331,7 @@
                         </div>
                 </label>
 
-                <label>
+                <label class="modal-label">
                     <span class="modal-label-text">Email</span>
                         <div class="input-wrap">
                             <input class="modal-input" id="user-email" name="user-email" type="email" required />
@@ -350,8 +345,8 @@
                 </div>
 
                 <div class="modal-field">  
-                    <input class="modal-check visually-hidden" id="privacy" name="user-privacy" type="checkbox" value="true" />
-                    <label class="check-text" for="privacy">I accept the terms and conditions of the <a class="check desk modal-police-text" href="" class="link">Privacy Policy</a></label>
+                    <input class="modal-check visually-hidden" id="user-privacy" name="user-privacy" type="checkbox" value="true" />
+                    <label class="check-text" for="user-privacy">I accept the terms and conditions of the <a class="modal-police-text" href="" class="link">Privacy Policy</a></label>
                 </div>
                 <button class="send-btn" type="submit">Send</button>
             </form>
