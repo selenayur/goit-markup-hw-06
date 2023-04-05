@@ -653,8 +653,13 @@ img {
     transform: translate(-50%, -50%) scale(1);
 }
 .modal-label {
-    
+    margin-bottom: 20px;
+    display: block;
 }
+.input-wrap {
+    position: relative;
+}
+
 .modal-close-btn {
     position: absolute;
     display: flex;
@@ -699,10 +704,7 @@ img {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.input-wrap {
-    position: relative;
-    margin-bottom: 8px;
-}
+
 .modal-input {
     display: flex;
     width: 100%;
@@ -774,7 +776,7 @@ img {
     color: #8E8F99;
     align-items: center;
     position: relative;
-    padding-top: 16px;
+    margin-top: 16px;
     gap: 8px;
 }
 .check-text::before {
